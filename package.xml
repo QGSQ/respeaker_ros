@@ -18,7 +18,6 @@
   <depend>speech_recognition_msgs</depend>
   <depend>std_msgs</depend>
   <depend>tf</depend>
-  <export>
-    <pip_requirements>requirements.txt</pip_requirements>
-  </export>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>  
 </package>
